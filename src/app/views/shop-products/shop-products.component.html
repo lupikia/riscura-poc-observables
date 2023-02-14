@@ -1,0 +1,7 @@
+<app-shop-add-product></app-shop-add-product>
+<h3>Product list</h3>
+<ol>
+    <li *ngFor=" let tempItem of products;">
+        {{tempItem.name}} --  R{{tempItem.price}}
+    </li>
+</ol>
